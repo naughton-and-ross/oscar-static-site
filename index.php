@@ -9,7 +9,7 @@
 					speed: 600,               //  The speed to animate each slide (in milliseconds)
 					delay: 4000,              //  The delay between slide animations (in milliseconds)
 					complete: function() {},  //  A function that gets called after every slide animation
-					keys: true,               //  Enable keyboard (left, right) arrow shortcuts
+					keys: false,               //  Enable keyboard (left, right) arrow shortcuts
 					dots: true,               //  Display dot navigation
 					fluid: true              //  Support responsive design. May break non-responsive designs
 				});
@@ -17,18 +17,18 @@
 		</script>
 		<?php $actual_link = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]"; ?>
 		<script>
-			
+
 			function slider() {
 			    if (document.body.scrollTop > 80) //Show the slider after scrolling down 100px
 			        $('.sliding-nav').stop().fadeIn(200);
 			    else
 			        $('.sliding-nav').stop().fadeOut(200); //200 matches the width of the slider
 			}
-			
+
 			$(window).scroll(function () {
 			    slider();
 			});
-			
+
 			$( document ).ready(function() {
 			    $('.intro').backstretch("<?php echo($actual_link); ?>file/img/intro-bg/2.jpg");
 			    $('.sliding-nav').hide();
@@ -36,12 +36,12 @@
 			    contWidth = $('.wrapper').width();
 			    $('.sliding-nav').width(contWidth);
 			});
-			
+
 			$(window).resize(function() {
 				contWidth = $('.wrapper').width();
 			    $('.sliding-nav').width(contWidth);
 			});
-			
+
 		</script>
 	</head>
 	<body>
@@ -118,7 +118,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="pure-u-1 slider screens">	
+				<div class="pure-u-1 slider screens">
 					<div class="banner">
 					    <ul>
 					        <li><img class="pure-img" src="file/img/hero1.jpg"/></li>
@@ -348,7 +348,7 @@
 				</div>
 				<div class="pure-u-1 text-hero cta">
 					<div class="l-box">
-						<p>Ready to start? You'll be up-and-running in no time. Get in touch.</p>
+						<p>Ready to start? You'll be up-and-running in no time. Get in touch now &rarr;</p>
 					</div>
 				</div>
 				<div class="pure-u-1 footer"></div>
