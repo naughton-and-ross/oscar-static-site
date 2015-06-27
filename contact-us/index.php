@@ -38,6 +38,10 @@
 			    $('.sliding-nav').width(contWidth);
 			});
 			
+			$(window).resize(function() {
+				contWidth = $('.wrapper').width();
+			    $('.sliding-nav').width(contWidth);
+			});
 			
 		</script>
 		<script>
@@ -64,24 +68,34 @@
 				</div>
 				<div class="pure-u-1 thirds cta-form">
 					<div class="pure-g">
-						<div class="pure-u-8-24">
+						<div class="pure-u-1 pure-u-md-8-24">
 							<div class="l-box">
 							<img class="pure-img" src="file/img/hero9.jpg"/>
 							</div>
 						</div>
-						<div class="pure-u-8-24">
+						<div class="pure-u-1 pure-u-md-8-24">
 							<div class="l-box">
 								<h1>Your key to a more efficient and modern work-cycle.</h1>
 								<p>(AppName) is ready to make a difference in your school. Make an enquiry and be taken directly to our quote tool to receive a free quote.</p>
 								<p>Fill out the form to make a request for a callback, or an information package by either email or post.</p>
-								<h1 class="typed"></h1>
+								<!--div class="pure-g">
+									<div class="pure-u-1-2">
+										<p><i class="fa fa-life-ring"></i> Dedicated Support</p>
+										<p><i class="fa fa-clock-o"></i> Trial period</p>
+									</div>
+									<div class="pure-u-1-2">
+										<p><i class="fa fa-life-ring"></i> Dedicated Support</p>
+										<p><i class="fa fa-clock-o"></i> Trial period</p>
+									</div>
+								</div-->
 							</div>
 						</div>
-						<div class="pure-u-8-24 form">
+						<div class="pure-u-1 pure-u-md-8-24 form">
 							<div class="l-box">
 								<form class="pure-form" method="post" action="contact-us/form.handler.php">
 									<fieldset class="pure-group">
 								        <input type="text" class="pure-input-1" name="name" placeholder="Name">
+								        <input type="number" class="pure-input-1" name="phone" placeholder="Contact number"/>
 								        <input type="email" class="pure-input-1" name="email" placeholder="Email">
 								    </fieldset>
 								    <fieldset class="pure-group">
@@ -128,23 +142,19 @@
 								</form>
 							</div>
 						</div>
-						<div class="pure-u-8-24">
+						<div class="pure-u-1 pure-u-md-8-24">
 							<div class="l-box">
-								<h1>Questions?</h1>
-								<p>If you have any questions or comments, please feel free to get in touch through any of the methods below:</p>
-								<p><i class="fa fa-envelope-o"></i> sales@n-r.co</p>
-								<p><i class="fa fa-phone-square"></i> 03 9718 0107</p>
+								<h1>Be a part of making (AppName) even better.</h1>
+								<p>Using (AppName) in your school means more than just the benefits of the service. You'll have the opportunity to be deeply involved in the development of the service over time.</p>
 							</div>
 						</div>
-						<div class="pure-u-8-24">
+						<div class="pure-u-1 pure-u-md-8-24">
 							<div class="l-box">
-								<h1>Questions?</h1>
-								<p>If you have any questions or comments, please feel free to get in touch through any of the methods below:</p>
-								<p><i class="fa fa-envelope-o"></i> sales@n-r.co</p>
-								<p><i class="fa fa-phone-square"></i> 03 9718 0107</p>
+								<h1>Take your classwork everywhere.</h1>
+								<p>Lugging piles of classwork grows tiresome fairly quickly, no? Data online isn't completely weightless, but the entire internet only weighs about as much as a grain of sand. Much easier on your back.</p>
 							</div>
 						</div>
-						<div class="pure-u-8-24">
+						<div class="pure-u-1 pure-u-md-8-24">
 							<div class="l-box">
 								<h1>Questions?</h1>
 								<p>If you have any questions or comments, please feel free to get in touch through any of the methods below:</p>
