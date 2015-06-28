@@ -164,7 +164,9 @@
 						</div>
 					</div>
 				</div>
-				<div class="pure-u-1 footer"></div>
+				<div class="pure-u-1 footer">
+					<p>Hosted on: <?php echo(gethostname()); ?></p>
+				</div>
 			</div>
 			<div class="pure-u-1 pure-u-l-2-24 pure-u-xl-5-24"></div>
 		</div>
