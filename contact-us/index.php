@@ -17,18 +17,18 @@
 			});
 		</script>
 		<script>
-			
+
 			function slider() {
 			    if (document.body.scrollTop > 80) //Show the slider after scrolling down 100px
 			        $('.sliding-nav').stop().fadeIn(150);
 			    else
 			        $('.sliding-nav').stop().fadeOut(150); //200 matches the width of the slider
 			}
-			
+
 			$(window).scroll(function () {
 			    slider();
 			});
-			
+
 			$( document ).ready(function() {
 			    $('.intro').backstretch("./file/img/intro-bg/contact.jpg");
 			    $('.sliding-nav').hide();
@@ -37,12 +37,12 @@
 			    contWidth = $('.wrapper').width();
 			    $('.sliding-nav').width(contWidth);
 			});
-			
+
 			$(window).resize(function() {
 				contWidth = $('.wrapper').width();
 			    $('.sliding-nav').width(contWidth);
 			});
-			
+
 		</script>
 		<script>
 		  $(function(){
@@ -76,7 +76,7 @@
 						<div class="pure-u-1 pure-u-md-8-24">
 							<div class="l-box">
 								<h1>Your key to a more efficient and modern work-cycle.</h1>
-								<p>(AppName) is ready to make a difference in your school. Make an enquiry and be taken directly to our quote tool to receive a free quote.</p>
+								<p>(AppName) is ready to make a difference in your school. Make an inquiry and be taken directly to our quote tool to receive a free quote.</p>
 								<p>Fill out the form to make a request for a callback, or an information package by either email or post.</p>
 								<!--div class="pure-g">
 									<div class="pure-u-1-2">
