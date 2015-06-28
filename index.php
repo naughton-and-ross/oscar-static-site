@@ -20,9 +20,9 @@
 
 			function slider() {
 			    if (document.body.scrollTop > 80) //Show the slider after scrolling down 100px
-			        $('.sliding-nav').stop().fadeIn(200);
+			        $('.sliding-nav').stop().fadeIn(150);
 			    else
-			        $('.sliding-nav').stop().fadeOut(200); //200 matches the width of the slider
+			        $('.sliding-nav').stop().fadeOut(150); //200 matches the width of the slider
 			}
 
 			$(window).scroll(function () {
