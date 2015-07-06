@@ -67,21 +67,21 @@
 							<div class="l-box">
 								<span><i class="fa fa-users"></i></span>
 								<p>Collaboration tools</p>
-								<p>ClassFox works off your existing school infrastructure. Using every user's existing credentials. No complicated sign-up process is required.</p>
+								<p>Work with other teacher in ClassFox to share files, develop tasks and build a curriculum based around a task schedule.</p>
 							</div>
 						</div>
 						<div class="pure-u-1 pure-u-md-1-2 pure-u-xl-6-24 block-item">
 							<div class="l-box">
 								<span><i class="fa fa-list-ul"></i></span>
 								<p>Multiple marking schemes</p>
-								<p>ClassFox is focused on providing meaningful and insightful information in the simplest ways possible, and works to put that information to the best use that it can be.</p>
+								<p>When creating a task for your students, choose one of many grading schemes that works best for the specific task ( x out of y marking, letter-based marking, etc).</p>
 							</div>
 						</div>
 						<div class="pure-u-1 pure-u-md-1-2 pure-u-xl-6-24 block-item">
 							<div class="l-box">
 								<span><i class="fa fa-file-text"></i></span>
 								<p>Report generation</p>
-								<p>ClassFox operates with constant contingency backup systems on 3 continents. 99.9% uptime guaranteed.</p>
+								<p>Use student performance data, aggregated from grades that you issued for their tasks, and automatically generate reports that explain and detail their performance.</p>
 							</div>
 						</div>
 					</div>
@@ -92,21 +92,21 @@
 							<div class="l-box">
 								<span><i class="fa fa-share-square-o"></i></span>
 								<p>Resource sharing</p>
-								<p>ClassFox is built for speed, and uses some of the fastest databasing software available.</p>
+								<p>Share files and resources with other staff, in groups that you make yourself.</p>
 							</div>
 						</div>
 						<div class="pure-u-1 pure-u-md-1-2 pure-u-xl-6-24 block-item">
 							<div class="l-box">
 								<span><i class="fa fa-sign-out"></i></span>
 								<p>Parental access</p>
-								<p>ClassFox works off your existing school infrastructure. Using every user's existing credentials. No complicated sign-up process is required.</p>
+								<p>ClassFox provides parents to a Parent portal where they can see overviews of their child's academic performance.</p>
 							</div>
 						</div>
 						<div class="pure-u-1 pure-u-md-1-2 pure-u-xl-6-24 block-item">
 							<div class="l-box">
 								<span><i class="fa fa-cubes"></i></span>
 								<p>Smart overviews</p>
-								<p>ClassFox is focused on providing meaningful and insightful information in the simplest ways possible, and works to put that information to the best use that it can be.</p>
+								<p>ClassFox consolidates data and presents it to you in the most efficient way possible. Why get an email every 5 minutes telling you that there has been a submission, when you could receive one an hour with an overview instead?</p>
 							</div>
 						</div>
 						<div class="pure-u-1 pure-u-md-1-2 pure-u-xl-6-24 block-item">
