@@ -137,7 +137,7 @@
 									    </select>
 								    </fieldset>
 								    <fieldset class="pure-group">
-								    	<input type="submit" class="pure-button" value="Submit"/>
+								    	<input type="submit" class="pure-button" value="Submit" disabled/>
 								    </fieldset>
 								</form>
 							</div>
