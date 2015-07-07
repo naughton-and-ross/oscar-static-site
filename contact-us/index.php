@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>The (AppName) Platform</title>
+		<title>The ClassFox Platform</title>
 		<?php include('../file/php/head.php'); ?>
 		<link rel="stylesheet" href="file/css/contact-us.css"/>
 		<script>
@@ -144,8 +144,8 @@
 						</div>
 						<div class="pure-u-1 pure-u-md-8-24">
 							<div class="l-box">
-								<h1>Be a part of making (AppName) even better.</h1>
-								<p>Using (AppName) in your school means more than just the benefits of the service. You'll have the opportunity to be deeply involved in the development of the service over time.</p>
+								<h1>Be a part of making ClassFox even better.</h1>
+								<p>Using ClassFox in your school means more than just the benefits of the service. You'll have the opportunity to be deeply involved in the development of the service over time.</p>
 							</div>
 						</div>
 						<div class="pure-u-1 pure-u-md-8-24">
@@ -165,7 +165,9 @@
 					</div>
 				</div>
 				<div class="pure-u-1 footer">
-					<p>Hosted on: <?php echo(gethostname()); ?></p>
+					<div class="l-box">
+						<p>Hosted on: <?php echo(gethostname()); ?></p>
+					</div>
 				</div>
 			</div>
 			<div class="pure-u-1 pure-u-l-2-24 pure-u-xl-5-24"></div>
