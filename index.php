@@ -300,7 +300,7 @@
 									<div class="pure-u-20-24">
 										<p>What CASES data does ClassFox need access to?</p>
 									</div>
-								</div-->
+								</div>
 								<div class="pure-g">
 									<div class="pure-u-2-24">
 										<p class="qa">A</p>
@@ -308,7 +308,7 @@
 									<div class="pure-u-20-24">
 										<p>ClassFox needs access to student records and teacher records, including photos. That's it! We do the rest.</p>
 									</div>
-								</div>
+								</div-->
 							</div>
 						</div>
 						<div class="pure-u-1 pure-u-lg-1-2 half-item">
