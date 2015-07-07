@@ -325,23 +325,6 @@
 							<div class="l-box">
 								<h1>A site for sore eyes.</h1>
 								<p>Through the devastatingly ugly landscape of educational software, ClassFox is a pleasant surprise among them. (AppNames)'s design is not only exceptionally functional, but also a much-needed sight for sore eyes, compared to its competitors.</p>
-								<p>If your school is on CASES21, then we can set you up, and have you up-and-running, almost immediately. If your school does not operate on CASES, it by no means excludes you from the ClassFox platform. We can work with you to develop custom solutions to retrieve the data we need.</p>
-								<div class="pure-g">
-									<div class="pure-u-2-24">
-										<p class="qa">Q</p>
-									</div>
-									<div class="pure-u-20-24">
-										<p>What CASES data does ClassFox need access to?</p>
-									</div>
-								</div>
-								<div class="pure-g">
-									<div class="pure-u-2-24">
-										<p class="qa">A</p>
-									</div>
-									<div class="pure-u-20-24">
-										<p>ClassFox needs access to student records and teacher records, including photos. That's it! We do the rest.</p>
-									</div>
-								</div>
 							</div>
 						</div>
 					</div>
