@@ -290,17 +290,17 @@
 					<div class="pure-g">
 						<div class="pure-u-1 pure-u-lg-1-2 half-item text">
 							<div class="l-box">
-								<h1>Never finished. Always improving.</h1>
-								<p>Developing, expanding and improving ClassFox is something that happens 24/7, literally. If it's not us doing the work, it's our automated systems that are working to identify bottlenecks and bugs for us to seek and destroy.</p>
-								<p>We are always adding new features, building the ClassFox roadmap, and improving your end-product.</p>
-								<div class="pure-g">
+								<h1>Always improving, with your guidance.</h1>
+								<p>We integrate ClassFox schools deeply into the development process to allow them to have their say, guide new features and decide exactly how they're implemented.</p>
+								<p>We hope to be able to host events and round-table discussions about ClassFox and it's feature-set, as well as the roadmap of development.</p>
+								<!--div class="pure-g">
 									<div class="pure-u-2-24">
 										<p class="qa">Q</p>
 									</div>
 									<div class="pure-u-20-24">
 										<p>What CASES data does ClassFox need access to?</p>
 									</div>
-								</div>
+								</div-->
 								<div class="pure-g">
 									<div class="pure-u-2-24">
 										<p class="qa">A</p>
