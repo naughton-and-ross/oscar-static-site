@@ -76,7 +76,7 @@
 						<div class="pure-u-1 pure-u-md-8-24">
 							<div class="l-box">
 								<h1>Your key to a more efficient and modern work-cycle.</h1>
-								<p>(AppName) is ready to make a difference in your school. Make an inquiry and be taken directly to our quote tool to receive a free quote.</p>
+								<p>ClassFox is ready to make a difference in your school. Make an inquiry and be taken directly to our quote tool to receive a free quote.</p>
 								<p>Fill out the form to make a request for a callback, or an information package by either email or post.</p>
 								<!--div class="pure-g">
 									<div class="pure-u-1-2">
