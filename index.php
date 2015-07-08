@@ -60,21 +60,21 @@
 							<div class="l-box">
 								<span><i class="fa fa-tasks"></i></span>
 								<p>Task management</p>
-								<p>ClassFox is built for management every task, for every class. Whether they be large, multi-submission assignments, or smaller worksheet and single-submission tasks.</p>
+								<p>ClassFox is built for managing every task, for every class. Whether they be large, multi-submission assignments, or smaller worksheet and single-submission tasks.</p>
 							</div>
 						</div>
 						<div class="pure-u-1 pure-u-md-1-2 pure-u-xl-6-24 block-item">
 							<div class="l-box">
 								<span><i class="fa fa-users"></i></span>
 								<p>Collaboration tools</p>
-								<p>Work with other teacher in ClassFox to share files, develop tasks and build a curriculum based around a task schedule.</p>
+								<p>Work with other teachers in ClassFox to share files, develop tasks and build a curriculum based around a task schedule.</p>
 							</div>
 						</div>
 						<div class="pure-u-1 pure-u-md-1-2 pure-u-xl-6-24 block-item">
 							<div class="l-box">
 								<span><i class="fa fa-list-ul"></i></span>
 								<p>Multiple marking schemes</p>
-								<p>When creating a task for your students, choose one of many grading schemes that works best for the specific task ( x out of y marking, letter-based marking, etc).</p>
+								<p>When creating a task for your students, choose one of many grading schemes that works best for the specific task (x out of y marking, letter-based marking, etc).</p>
 							</div>
 						</div>
 						<div class="pure-u-1 pure-u-md-1-2 pure-u-xl-6-24 block-item">
@@ -99,7 +99,7 @@
 							<div class="l-box">
 								<span><i class="fa fa-sign-out"></i></span>
 								<p>Parental access</p>
-								<p>ClassFox provides parents to a Parent portal where they can see overviews of their child's academic performance.</p>
+								<p>ClassFox provides parents with a parent portal where they can see overviews of their child's academic performance.</p>
 							</div>
 						</div>
 						<div class="pure-u-1 pure-u-md-1-2 pure-u-xl-6-24 block-item">
