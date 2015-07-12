@@ -111,9 +111,9 @@
 						</div>
 						<div class="pure-u-1 pure-u-md-1-2 pure-u-xl-6-24 block-item">
 							<div class="l-box">
-								<span><i class="fa fa-mobile"></i></span>
-								<p>Mobile-friendly</p>
-								<p>ClassFox is responsive, meaning that that is changes dynamically depending on whether you're on mobile,  a tablet, or a laptop or desktop computer without the need for a separate app.</p>
+								<span><i class="fa fa-list-alt"></i></span>
+								<p>Multiple tasks structures</p>
+								<p>Whether your task requires a drafting process, multiple submissions, or it's smaller single-submission or checklist task, ClassFox is build to accommodate them all.</p>
 							</div>
 						</div>
 					</div>
@@ -138,9 +138,9 @@
 						</div>
 						<div class="pure-u-1 pure-u-md-1-2 pure-u-xl-6-24 block-item">
 							<div class="l-box">
-								<span><i class="fa fa-list-alt"></i></span>
-								<p>Multiple tasks structures</p>
-								<p>Whether your task requires a drafting process, multiple submissions, or it's smaller single-submission or checklist task, ClassFox is build to accommodate them all.</p>
+								<span><i class="fa fa-mobile"></i></span>
+								<p>Mobile-friendly</p>
+								<p>ClassFox is responsive, meaning that that is changes dynamically depending on whether you're on mobile,  a tablet, or a laptop or desktop computer without the need for a separate app.</p>
 							</div>
 						</div>
 						<div class="pure-u-1 pure-u-md-1-2 pure-u-xl-6-24 block-item">
