@@ -36,16 +36,23 @@
 			    slider();
 			    contWidth = $('.wrapper').width();
 			    $('.sliding-nav').width(contWidth);
+			    $('.sliding-nav').height("auto");
 			    
 			    
 			    $( ".block-item" ).click(function() {
 				  var nextExpander = $(this).parent().parent().next(".block-expand-wrap");
 				  var expanderID = $(this).attr("data-details-id");
 				  $(nextExpander).empty();
-				  $(nextExpander).html("<div class=\"l-box\"></div><div class=\"pure-g\"><div class=\"pure-u-1 pure-u-md-1-2\"><div class=\"l-box\"><p><i class=\"fa fa-spin fa-spinner\"></i></p></div></div><div class=\"pure-u-1 pure-u-md-1-2\"><div class=\"l-box\"><h1 class=\"expand-close\">X</h1></div></div></div>");
+				  $(nextExpander).html("<div class=\"pure-g\"><div class=\"pure-u-1 pure-u-md-1-2\"><div class=\"l-box\"><p><i class=\"fa fa-spin fa-spinner\"></i></p></div></div><div class=\"pure-u-1 pure-u-md-1-2\"><div class=\"l-box\"><h1 class=\"expand-close\">X</h1></div></div></div>");
 				  $('.block-expand-wrap').not(nextExpander).slideUp();
-				  $(nextExpander).slideDown();
-				  $(nextExpander).load('<?php echo($actual_link); ?>file/php/tile-details.php?tile_id='+expanderID);
+				  $(nextExpander).slideDown(function(){
+					  setTimeout(
+						  function() 
+						  {
+						    $(nextExpander).load('<?php echo($actual_link); ?>file/php/tile-details.php?tile_id='+expanderID);
+						  }, 400);
+				  });
+				  
 				});
 				
 
