@@ -102,6 +102,17 @@ p.qa {
 	font-weight: 300;
 }
 
+.blocks .block-item {
+	transition: 0.3s;
+}
+
+.blocks .block-item:hover {
+	background-color: #F7F7F7;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
 .blocks .block-item.attn {
 	background-color: #ffeaea;
 	color: black;
@@ -119,6 +130,20 @@ p.qa {
 .blocks .block-item span i {
 	display: block;
 	text-align: center;
+}
+
+.block-expand-wrap {
+	background-color: #fbfbfb;
+}
+
+.block-expand-wrap h1.expand-close {
+	color: #898989;
+	text-align: right;
+	cursor: pointer;
+}
+
+.block-expand-wrap ul li {
+	margin-bottom: 1em;
 }
 
 .halves .half-item.text .l-box {

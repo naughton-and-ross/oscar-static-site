@@ -30,18 +30,33 @@
 			});
 
 			$( document ).ready(function() {
+			   $('.block-expand-wrap').hide();
 			    $('.intro').backstretch("<?php echo($actual_link); ?>file/img/intro-bg/2.jpg");
-			    $('.sliding-nav').hide();
+			    $('.sliding-nav').slideUp();
 			    slider();
 			    contWidth = $('.wrapper').width();
 			    $('.sliding-nav').width(contWidth);
+			    
+			    
+			    $( ".block-item" ).click(function() {
+				  var nextExpander = $(this).parent().parent().next(".block-expand-wrap");
+				  var expanderID = $(this).attr("data-details-id");
+				  $(nextExpander).empty();
+				  $(nextExpander).html("<div class=\"l-box\"></div><div class=\"pure-g\"><div class=\"pure-u-1 pure-u-md-1-2\"><div class=\"l-box\"><p><i class=\"fa fa-spin fa-spinner\"></i></p></div></div><div class=\"pure-u-1 pure-u-md-1-2\"><div class=\"l-box\"><h1 class=\"expand-close\">X</h1></div></div></div>");
+				  $('.block-expand-wrap').not(nextExpander).slideUp();
+				  $(nextExpander).slideDown();
+				  $(nextExpander).load('<?php echo($actual_link); ?>file/php/tile-details.php?tile_id='+expanderID);
+				});
+				
+
 			});
 
 			$(window).resize(function() {
 				contWidth = $('.wrapper').width();
 			    $('.sliding-nav').width(contWidth);
 			});
-
+			
+			
 		</script>
 	</head>
 	<body>
@@ -56,28 +71,28 @@
 				</div>
 				<div class="pure-u-1 blocks">
 					<div class="pure-g">
-						<div class="pure-u-1 pure-u-md-1-2 pure-u-xl-6-24 block-item">
+						<div class="pure-u-1 pure-u-md-1-2 pure-u-xl-6-24 block-item" data-details-id="task-mgmt">
 							<div class="l-box">
 								<span><i class="fa fa-tasks"></i></span>
 								<p>Task management</p>
 								<p>ClassFox is built for managing every task, for every class. Whether they be large, multi-submission assignments, or smaller worksheet and single-submission tasks.</p>
 							</div>
 						</div>
-						<div class="pure-u-1 pure-u-md-1-2 pure-u-xl-6-24 block-item">
+						<div class="pure-u-1 pure-u-md-1-2 pure-u-xl-6-24 block-item" data-details-id="collab">
 							<div class="l-box">
 								<span><i class="fa fa-users"></i></span>
 								<p>Collaboration tools</p>
 								<p>Work with other teachers in ClassFox to share files, develop tasks and build a curriculum based around a task schedule.</p>
 							</div>
 						</div>
-						<div class="pure-u-1 pure-u-md-1-2 pure-u-xl-6-24 block-item">
+						<div class="pure-u-1 pure-u-md-1-2 pure-u-xl-6-24 block-item" data-details-id="task-structures">
 							<div class="l-box">
-								<span><i class="fa fa-list-ul"></i></span>
-								<p>Multiple marking schemes</p>
-								<p>When creating a task for your students, choose one of many grading schemes that works best for the specific task (x out of y marking, letter-based marking, etc).</p>
+								<span><i class="fa fa-list-alt"></i></span>
+								<p>Multiple task structures</p>
+								<p>Whether your task requires a drafting process, multiple submissions, or it's smaller single-submission or checklist task, ClassFox is build to accommodate them all.</p>
 							</div>
 						</div>
-						<div class="pure-u-1 pure-u-md-1-2 pure-u-xl-6-24 block-item">
+						<div class="pure-u-1 pure-u-md-1-2 pure-u-xl-6-24 block-item" data-details-id="reports">
 							<div class="l-box">
 								<span><i class="fa fa-file-text"></i></span>
 								<p>Report generation</p>
@@ -86,38 +101,40 @@
 						</div>
 					</div>
 				</div>
+				<div class="pure-u-1 block-expand-wrap"></div>
 				<div class="pure-u-1 blocks">
 					<div class="pure-g">
-						<div class="pure-u-1 pure-u-md-1-2 pure-u-xl-6-24 block-item">
+						<div class="pure-u-1 pure-u-md-1-2 pure-u-xl-6-24 block-item" data-details-id="sharing">
 							<div class="l-box">
 								<span><i class="fa fa-share-square-o"></i></span>
 								<p>Resource sharing</p>
 								<p>Share files and resources with other staff, in groups that you make yourself.</p>
 							</div>
 						</div>
-						<div class="pure-u-1 pure-u-md-1-2 pure-u-xl-6-24 block-item">
+						<div class="pure-u-1 pure-u-md-1-2 pure-u-xl-6-24 block-item" data-details-id="parents">
 							<div class="l-box">
 								<span><i class="fa fa-sign-out"></i></span>
 								<p>Parental access</p>
 								<p>ClassFox provides parents with a parent portal where they can see overviews of their child's academic performance.</p>
 							</div>
 						</div>
-						<div class="pure-u-1 pure-u-md-1-2 pure-u-xl-6-24 block-item">
+						<div class="pure-u-1 pure-u-md-1-2 pure-u-xl-6-24 block-item" data-details-id="smart">
 							<div class="l-box">
 								<span><i class="fa fa-cubes"></i></span>
 								<p>Smart overviews</p>
-								<p>ClassFox consolidates data and presents it to you in the most efficient way possible. Why get an email every 5 minutes telling you that there has been a submission, when you could receive one an hour with an overview instead?</p>
+								<p>Where other services rely on users sifting through lists of notifications, ClassFox consolidates data and presents it to you in the most efficient way possible.</p>
 							</div>
 						</div>
-						<div class="pure-u-1 pure-u-md-1-2 pure-u-xl-6-24 block-item">
+						<div class="pure-u-1 pure-u-md-1-2 pure-u-xl-6-24 block-item" data-details-id="multi-scheme">
 							<div class="l-box">
-								<span><i class="fa fa-list-alt"></i></span>
-								<p>Multiple tasks structures</p>
-								<p>Whether your task requires a drafting process, multiple submissions, or it's smaller single-submission or checklist task, ClassFox is build to accommodate them all.</p>
+								<span><i class="fa fa-list-ul"></i></span>
+								<p>Multiple marking schemes</p>
+								<p>When creating a task for your students, choose one of many grading schemes that works best for the specific task (x out of y marking, letter-based marking, etc).</p>
 							</div>
 						</div>
 					</div>
 				</div>
+				<div class="pure-u-1 block-expand-wrap"></div>
 				<div class="pure-u-1 slider screens">
 					<div class="banner">
 					    <ul>
@@ -129,28 +146,28 @@
 				</div>
 				<div class="pure-u-1 blocks">
 					<div class="pure-g">
-						<div class="pure-u-1 pure-u-md-1-2 pure-u-xl-6-24 block-item">
+						<div class="pure-u-1 pure-u-md-1-2 pure-u-xl-6-24 block-item" data-details-id="emails">
 							<div class="l-box">
 								<span><i class="fa fa-envelope-o"></i></span>
 								<p>Smart e-mailing</p>
 								<p>ClassFox's email notification system is fully-featured and customisable to receive more or less depending on what you prefer.</p>
 							</div>
 						</div>
-						<div class="pure-u-1 pure-u-md-1-2 pure-u-xl-6-24 block-item">
+						<div class="pure-u-1 pure-u-md-1-2 pure-u-xl-6-24 block-item" data-details-id="mobile">
 							<div class="l-box">
 								<span><i class="fa fa-mobile"></i></span>
 								<p>Mobile-friendly</p>
 								<p>ClassFox is responsive, meaning that that is changes dynamically depending on whether you're on mobile,  a tablet, or a laptop or desktop computer without the need for a separate app.</p>
 							</div>
 						</div>
-						<div class="pure-u-1 pure-u-md-1-2 pure-u-xl-6-24 block-item">
+						<div class="pure-u-1 pure-u-md-1-2 pure-u-xl-6-24 block-item" data-details-id="analytics">
 							<div class="l-box">
 								<span><i class="fa fa-bar-chart"></i></span>
-								<p>Task Analytics</p>
+								<p>Task and student analytics</p>
 								<p>ClassFox keeps track of detailed analytics about each task, including student exposure, engagement and smart notifications.</p>
 							</div>
 						</div>
-						<div class="pure-u-1 pure-u-md-1-2 pure-u-xl-6-24 block-item">
+						<div class="pure-u-1 pure-u-md-1-2 pure-u-xl-6-24 block-item" data-details-id="always">
 							<div class="l-box">
 								<span><i class="fa fa-globe"></i></span>
 								<p>Always up</p>
@@ -159,30 +176,31 @@
 						</div>
 					</div>
 				</div>
+				<div class="pure-u-1 block-expand-wrap"></div>
 				<div class="pure-u-1 blocks">
 					<div class="pure-g">
-						<div class="pure-u-1 pure-u-md-1-2 pure-u-xl-6-24 block-item">
+						<div class="pure-u-1 pure-u-md-1-2 pure-u-xl-6-24 block-item" data-details-id="fast">
 							<div class="l-box">
 								<span><i class="fa fa-fighter-jet"></i></span>
 								<p>Fast</p>
 								<p>ClassFox is built for speed, and uses some of the fastest databasing software available.</p>
 							</div>
 						</div>
-						<div class="pure-u-1 pure-u-md-1-2 pure-u-xl-6-24 block-item">
+						<div class="pure-u-1 pure-u-md-1-2 pure-u-xl-6-24 block-item" data-details-id="signup">
 							<div class="l-box">
 								<span><i class="fa fa-clipboard"></i></span>
 								<p>No sign-up needed</p>
 								<p>ClassFox works off your existing school infrastructure. Using every user's existing credentials. No complicated sign-up process is required.</p>
 							</div>
 						</div>
-						<div class="pure-u-1 pure-u-md-1-2 pure-u-xl-6-24 block-item">
+						<div class="pure-u-1 pure-u-md-1-2 pure-u-xl-6-24 block-item" data-details-id="data">
 							<div class="l-box">
 								<span><i class="fa fa-files-o"></i></span>
 								<p>Data-rich</p>
 								<p>ClassFox is focused on providing meaningful and insightful information in the simplest ways possible, and works to put that information to the best use that it can be.</p>
 							</div>
 						</div>
-						<div class="pure-u-1 pure-u-md-1-2 pure-u-xl-6-24 block-item">
+						<div class="pure-u-1 pure-u-md-1-2 pure-u-xl-6-24 block-item" data-details-id="ready">
 							<div class="l-box">
 								<span><i class="fa fa-check-circle"></i></span>
 								<p>Ready for your school</p>
@@ -191,6 +209,7 @@
 						</div>
 					</div>
 				</div>
+				<div class="pure-u-1 block-expand-wrap"></div>
 				<div class="pure-u-1 text-hero roadmap">
 					<div class="l-box">
 						<p>This is just the beginning. Look at our roadmap.</p>
