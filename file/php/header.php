@@ -1,4 +1,4 @@
-<div class="sliding-nav">
+<div class="sliding-nav" style="height: auto;">
 	<div class="l-box">
 		<p style="float: left;"><img height="12px" src="file/img/logo/fox-black.png"/> ClassFox</a></p>
 		<p style="text-align: right;"><span style="background-color: #e74c3c;padding: 6px;border-radius: 3px; color: white"><a href="contact-us/">Contact Us</a></span></p>
