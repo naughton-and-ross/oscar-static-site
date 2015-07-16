@@ -29,6 +29,7 @@ p.qa {
 	position: fixed;
 	z-index: 10;
 	background-color: rgba(255, 255, 255, 1);
+	height: auto;
 }
 
 .banner { position: relative; overflow: auto; z-index: 1; }
@@ -140,6 +141,10 @@ p.qa {
 	color: #898989;
 	text-align: right;
 	cursor: pointer;
+}
+
+.block-expand-wrap img {
+	margin-bottom: 0.4em;
 }
 
 .block-expand-wrap ul li {
