@@ -4,7 +4,7 @@ The front-end, static site for the ~~otherwise unnamed~~ project Oscar, now indi
 #### Raison d'être
 ClassFox is a class management system designed to be a solution for Australian schools that are currently faced with the problem of disjointed, and incompaitble LMS systems that are built for American schools. 
 
-ClassFox is a comprihensive maangement tool for a students classes, acting as a place to see out the tasks entire lifecycle, typcailly as follows: 
+ClassFox is a comprehensive management tool for a students classes, acting as a place to see out the tasks entire lifecycle, typcailly as follows: 
 
 #### The Task Lifecycle
 0. (Optional) The task is drafted, refined and agreed-upon in a teacher collaboration group before issuing.
